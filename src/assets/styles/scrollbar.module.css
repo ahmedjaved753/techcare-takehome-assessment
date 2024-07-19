@@ -1,0 +1,15 @@
+.cards {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: black #f6f7f8;
+}
+
+.cards::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}

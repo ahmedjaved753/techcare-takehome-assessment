@@ -1,0 +1,33 @@
+/* table.module.css */
+.tr-rounded-left {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.tr-rounded-right {
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.table-container {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: black #f6f7f8;
+}
+
+.table-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: rgb(246, 247, 248);
+  z-index: 1;
+}
